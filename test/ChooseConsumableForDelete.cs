@@ -17,17 +17,17 @@ namespace test
             switch (Console.ReadLine())
             {
                 case "1":
-                    Console.WriteLine("Deleting Book");
+                    Console.WriteLine("Deleting Book:");
                     DeleteChoosenItem.delete(Program.BookList);
                     Program.MainMenu();
                     break;
                 case "2":
-                    Console.WriteLine("Deleting Series");
+                    Console.WriteLine("Deleting Series:");
                     DeleteChoosenItem.delete(Program.SeriesList);
                     Program.MainMenu();
                     break;
                 case "3":
-                    Console.WriteLine("Deleting Movie");
+                    Console.WriteLine("Deleting Movie:");
                     DeleteChoosenItem.delete(Program.MovieList);
                     Program.MainMenu();
                     break;

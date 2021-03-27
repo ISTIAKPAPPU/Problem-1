@@ -7,6 +7,11 @@ namespace test
     {
         public static void delete(List<Books> BookList)
         {
+            if (BookList.Count == 0)
+            {
+                Console.WriteLine("No item Left add First!!");
+                Program.MainMenu();
+            }
             DisplayExistingItems.Display(BookList);
 
             int index = ChooseIndex();
@@ -15,6 +20,12 @@ namespace test
         }
         public static void delete(List<Series> SeriesList)
         {
+            if (SeriesList.Count == 0)
+            {
+                Console.WriteLine("No item Left add First!!");
+                Program.MainMenu();
+            }
+
             DisplayExistingItems.Display(SeriesList);
 
             int index = ChooseIndex();
@@ -23,6 +34,11 @@ namespace test
         }
         public static void delete(List<Movies> MovieList)
         {
+            if (MovieList.Count == 0)
+            {
+                Console.WriteLine("No item Left add First!!");
+                Program.MainMenu();
+            }
             DisplayExistingItems.Display(MovieList);
 
             int index = ChooseIndex();
@@ -32,7 +48,7 @@ namespace test
 
         private static int IndexValid(int index,int size)
         {
-            
+
              while(index<0 || index>=size)
             {
                 Console.WriteLine("Invalid Selection! choose valid one");

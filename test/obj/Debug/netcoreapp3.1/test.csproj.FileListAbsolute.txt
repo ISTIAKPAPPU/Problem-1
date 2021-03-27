@@ -10,3 +10,4 @@ C:\Users\istia\source\repos\test\test\obj\Debug\netcoreapp3.1\test.csproj.CoreCo
 C:\Users\istia\source\repos\test\test\obj\Debug\netcoreapp3.1\test.dll
 C:\Users\istia\source\repos\test\test\obj\Debug\netcoreapp3.1\test.pdb
 C:\Users\istia\source\repos\test\test\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
+C:\Users\istia\source\repos\test\test\obj\Debug\netcoreapp3.1\test.csprojAssemblyReference.cache
